@@ -12,7 +12,12 @@
 		<div class="navbar-inner">
 			<div class="container">
 				<%= link_to "19th Hole", root_path, :class => "brand" %>
-				<div style="float: right;">log in/out and sign up links will go here</div>
+				
+				<div style="float: right;"><p>
+    <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
+    <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+  </p></div>
+
 			</div>
 		</div>
 	</div>
@@ -39,6 +44,9 @@
 </div>
 </div>
 
+
+<p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
 
 	
 
