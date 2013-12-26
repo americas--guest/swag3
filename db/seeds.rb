@@ -7,5 +7,5 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 brands = Brand.create([
-	{ title: 'Puma'}, {title: 'Travis Matthews'}, {title: 'Hugo Boss'}
+	{ title: 'Puma', content: 'polos'}, {title: 'Travis Matthews', content: 'belts'}, {title: 'Hugo Boss', content: 'hats'}
 	])

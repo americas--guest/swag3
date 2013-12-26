@@ -1,4 +1,6 @@
 Swag3::Application.routes.draw do
+  resources :products
+
   resources :brands
 
   devise_for :users
