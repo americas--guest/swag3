@@ -1,8 +1,9 @@
 class ProductsController < ApplicationController
-	before_filter :authorize
+	
 
 	def index
 		@products = Product.order(updated_at: :desc)
+		@products = Product.all 
 	end
 
 	def show

@@ -9,3 +9,5 @@
 brands = Brand.create([
 	{ title: 'Puma', content: 'polos'}, {title: 'Travis Matthews', content: 'belts'}, {title: 'Hugo Boss', content: 'hats'}
 	])
+
+Product.create(title: 'Polo', brand: brands.first)

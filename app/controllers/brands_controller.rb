@@ -2,6 +2,7 @@ class BrandsController < ApplicationController
 	before_filter :authenticate_user!
 	def index 
 		@brands = Brand.all
+		@products = Product.all
 	end
 
 	def show
