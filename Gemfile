@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
-gem 'devise'
+gem 'devise', '~> 3.2.2'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -47,4 +47,10 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-gem 'faker'
+
+
+gem 'spree', '2.1.3'
+gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-1-stable'
+gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-1-stable'
+gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git', :branch => '2-1-stable'
+gem 'spree_simple_sales', :path => 'spree_simple_sales'
