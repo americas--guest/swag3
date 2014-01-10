@@ -8,8 +8,8 @@
 Spree.config do |config|
 	config.use_s3 = true
   config.s3_bucket = 'getchonkey'
-  config.s3_access_key = "AKIAJJ3RIUJWDFREKV3Q"
-  config.s3_secret = "UOzUt9yGA8Wdzj1qosQMZJTc89FSXrRO4rjix0IR"
+  config.s3_access_key = "AKIAJUDZ3HDM3HNFZVNQ"
+  config.s3_secret = "OiIWlrJRQNfnHcghxui+rsauRCZjfCYL9x1vMHeX"
   # Example:
   # Uncomment to override the default site name.
   # config.site_name = "Spree Demo Site"
